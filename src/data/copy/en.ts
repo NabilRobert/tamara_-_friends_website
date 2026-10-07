@@ -17,6 +17,7 @@ export const en: CopyShape = {
     ],
     ctaLabel: 'Book a Demo',
     languageToggleLabel: 'Switch Language',
+    tryItOutLabel: 'Try it out',
   },
 
   hero: {
@@ -26,7 +27,6 @@ export const en: CopyShape = {
     description: 'A full agentic AI squad that builds your business and sales automatically, 24 hours a day!',
     ctaPrimary: 'Book a Demo',
     ctaSecondary: 'Free Audit',
-    deckLabel: 'Sales & Optimization Deck · 2026 · Powered by Beobot',
   },
 
   executiveSummary: {
@@ -304,7 +304,8 @@ export const en: CopyShape = {
     navHeading: 'Navigation',
     legalHeading: 'Legal',
     contactHeading: 'Contact',
-    rightsReserved: '© 2026 Tamara and Friends · Powered by Beobot. All rights reserved.',
+    rightsReservedPrefix: '© 2026 Tamara and Friends · Powered by ',
+    rightsReservedSuffix: '. All rights reserved.',
   },
 
   legal: {
@@ -594,5 +595,13 @@ export const en: CopyShape = {
     title: 'Page Not Found',
     description: 'The page you are looking for is unavailable or has been moved.',
     ctaLabel: 'Back to Home',
+  },
+
+  whatsappWidget: {
+    ariaLabel: 'Chat via WhatsApp',
+    title: 'Tamara and Friends',
+    description: "Have a question? We're ready to help on WhatsApp.",
+    message: "Hi, I'd like to ask about Tamara and Friends",
+    chatLabel: 'Start Chat',
   },
 }

@@ -30,12 +30,12 @@ const menuOpen = ref(false)
       </nav>
 
       <div class="hidden items-center gap-3 lg:flex">
+        <!-- placeholder href — point this at the real Tamara SaaS app later -->
+        <a href="#" class="text-sm font-medium text-ink-muted transition-colors hover:text-brand-orange-600">
+          {{ copy.header.tryItOutLabel }}
+        </a>
         <LanguageToggle />
-        <WhatsAppButton
-          :message="copy.header.ctaLabel"
-          variant="dark"
-          class="bg-brand-orange-500 hover:bg-brand-orange-600"
-        >
+        <WhatsAppButton :message="copy.header.ctaLabel" variant="orange">
           {{ copy.header.ctaLabel }}
         </WhatsAppButton>
       </div>
@@ -65,12 +65,16 @@ const menuOpen = ref(false)
         >
           {{ item.label }}
         </a>
+        <!-- placeholder href — point this at the real Tamara SaaS app later -->
+        <a
+          href="#"
+          @click="menuOpen = false"
+          class="text-sm font-medium text-ink-muted transition-colors hover:text-brand-orange-600"
+        >
+          {{ copy.header.tryItOutLabel }}
+        </a>
       </nav>
-      <WhatsAppButton
-        :message="copy.header.ctaLabel"
-        variant="dark"
-        class="mt-4 w-full bg-brand-orange-500 hover:bg-brand-orange-600"
-      >
+      <WhatsAppButton :message="copy.header.ctaLabel" variant="orange" class="mt-4 w-full">
         {{ copy.header.ctaLabel }}
       </WhatsAppButton>
     </div>

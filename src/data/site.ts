@@ -3,6 +3,7 @@ import type { LegalLink } from '../types/nav'
 export const siteName = 'Tamara and Friends'
 export const parentCompany = 'Beobot'
 export const siteUrl = 'https://www.tamaraandfriends.my.id'
+export const beobotUrl = 'https://www.beobot.my.id'
 
 /** Phone number in international format, no symbols — used to build wa.me links. */
 export const whatsappNumber = '6281999197186'

@@ -17,6 +17,7 @@ export const id: CopyShape = {
     ],
     ctaLabel: 'Jadwalkan Demo',
     languageToggleLabel: 'Ganti Bahasa',
+    tryItOutLabel: 'Coba Sekarang',
   },
 
   hero: {
@@ -27,7 +28,6 @@ export const id: CopyShape = {
       'Satu pasukan agentic AI penuh yang membangun bisnis dan sales Anda secara otomatis 24 jam!',
     ctaPrimary: 'Jadwalkan Demo',
     ctaSecondary: 'Audit Gratis',
-    deckLabel: 'Sales & Optimization Deck · 2026 · Powered by Beobot',
   },
 
   executiveSummary: {
@@ -307,7 +307,8 @@ export const id: CopyShape = {
     navHeading: 'Navigasi',
     legalHeading: 'Legal',
     contactHeading: 'Kontak',
-    rightsReserved: '© 2026 Tamara and Friends · Powered by Beobot. Semua hak dilindungi.',
+    rightsReservedPrefix: '© 2026 Tamara and Friends · Powered by ',
+    rightsReservedSuffix: '. Semua hak dilindungi.',
   },
 
   legal: {
@@ -598,5 +599,13 @@ export const id: CopyShape = {
     title: 'Halaman Tidak Ditemukan',
     description: 'Halaman yang Anda cari tidak tersedia atau sudah dipindahkan.',
     ctaLabel: 'Kembali ke Beranda',
+  },
+
+  whatsappWidget: {
+    ariaLabel: 'Chat via WhatsApp',
+    title: 'Tamara and Friends',
+    description: 'Ada pertanyaan? Kami siap bantu lewat WhatsApp.',
+    message: 'Halo, saya ingin bertanya tentang Tamara and Friends',
+    chatLabel: 'Mulai Chat',
   },
 }

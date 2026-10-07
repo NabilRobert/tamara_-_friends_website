@@ -107,6 +107,7 @@ export interface CopyShape {
     navItems: NavItem[]
     ctaLabel: string
     languageToggleLabel: string
+    tryItOutLabel: string
   }
 
   hero: {
@@ -116,7 +117,6 @@ export interface CopyShape {
     description: string
     ctaPrimary: string
     ctaSecondary: string
-    deckLabel: string
   }
 
   executiveSummary: {
@@ -202,7 +202,8 @@ export interface CopyShape {
     navHeading: string
     legalHeading: string
     contactHeading: string
-    rightsReserved: string
+    rightsReservedPrefix: string
+    rightsReservedSuffix: string
   }
 
   legal: {
@@ -215,5 +216,13 @@ export interface CopyShape {
     title: string
     description: string
     ctaLabel: string
+  }
+
+  whatsappWidget: {
+    ariaLabel: string
+    title: string
+    description: string
+    message: string
+    chatLabel: string
   }
 }

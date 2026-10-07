@@ -2,7 +2,14 @@
 import { RouterLink } from 'vue-router'
 import { useCopy } from '../../composables/useCopy'
 import { useLanguage } from '../../composables/useLanguage'
-import { legalLinks, whatsappContactName, whatsappDisplayNumber, buildWhatsAppLink } from '../../data/site'
+import {
+  legalLinks,
+  whatsappContactName,
+  whatsappDisplayNumber,
+  buildWhatsAppLink,
+  beobotUrl,
+  parentCompany,
+} from '../../data/site'
 import Logo from '../shared/Logo.vue'
 
 const copy = useCopy()
@@ -62,7 +69,11 @@ const { locale } = useLanguage()
     </div>
 
     <div class="mx-auto mt-10 max-w-6xl border-t border-white/10 pt-6 text-xs text-ink-soft/60">
-      {{ copy.footer.rightsReserved }}
+      {{ copy.footer.rightsReservedPrefix
+      }}<a :href="beobotUrl" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">{{
+        parentCompany
+      }}</a
+      >{{ copy.footer.rightsReservedSuffix }}
     </div>
   </footer>
 </template>

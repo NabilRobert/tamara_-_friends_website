@@ -5,6 +5,8 @@ const variantClasses = {
   solid: 'bg-white text-brand-orange-600 hover:bg-brand-cream-100',
   outline: 'border border-white/70 text-white hover:bg-white/10',
   dark: 'bg-brand-navy-900 text-white hover:bg-brand-navy-800',
+  orange: 'bg-brand-orange-500 text-white hover:bg-brand-orange-600',
+  whatsapp: 'bg-[#25D366] text-white hover:bg-[#1ebe57]',
 } as const
 
 withDefaults(

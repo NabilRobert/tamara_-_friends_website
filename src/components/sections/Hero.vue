@@ -38,8 +38,6 @@ const copy = useCopy()
           {{ copy.hero.ctaSecondary }}
         </WhatsAppButton>
       </div>
-
-      <p class="mt-6 text-xs font-medium tracking-wide text-white/70 sm:text-sm">{{ copy.hero.deckLabel }}</p>
     </div>
   </section>
 </template>
