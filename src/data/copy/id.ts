@@ -17,7 +17,7 @@ export const id: CopyShape = {
     ],
     ctaLabel: 'Jadwalkan Demo',
     languageToggleLabel: 'Ganti Bahasa',
-    tryItOutLabel: 'Coba Sekarang',
+    tryItOutLabel: 'Login',
   },
 
   hero: {
