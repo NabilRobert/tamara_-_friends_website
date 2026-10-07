@@ -17,7 +17,6 @@ export const en: CopyShape = {
     ],
     ctaLabel: 'Book a Demo',
     languageToggleLabel: 'Switch Language',
-    tryItOutLabel: 'Login',
   },
 
   hero: {

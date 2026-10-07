@@ -31,13 +31,6 @@ const menuOpen = ref(false)
 
       <div class="hidden items-center gap-3 lg:flex">
         <LanguageToggle />
-        <!-- placeholder href — point this at the real Tamara SaaS app later -->
-        <a
-          href="#"
-          class="inline-flex items-center justify-center rounded-full border border-ink/15 px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-brand-orange-500 hover:text-brand-orange-600"
-        >
-          {{ copy.header.tryItOutLabel }}
-        </a>
         <WhatsAppButton :message="copy.header.ctaLabel" variant="orange">
           {{ copy.header.ctaLabel }}
         </WhatsAppButton>
@@ -69,19 +62,9 @@ const menuOpen = ref(false)
           {{ item.label }}
         </a>
       </nav>
-      <div class="mt-4 flex flex-col gap-2">
-        <!-- placeholder href — point this at the real Tamara SaaS app later -->
-        <a
-          href="#"
-          @click="menuOpen = false"
-          class="inline-flex w-full items-center justify-center rounded-full border border-ink/15 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-brand-orange-500 hover:text-brand-orange-600"
-        >
-          {{ copy.header.tryItOutLabel }}
-        </a>
-        <WhatsAppButton :message="copy.header.ctaLabel" variant="orange" class="w-full">
-          {{ copy.header.ctaLabel }}
-        </WhatsAppButton>
-      </div>
+      <WhatsAppButton :message="copy.header.ctaLabel" variant="orange" class="mt-4 w-full">
+        {{ copy.header.ctaLabel }}
+      </WhatsAppButton>
     </div>
   </header>
 </template>

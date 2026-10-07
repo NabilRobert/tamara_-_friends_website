@@ -107,7 +107,6 @@ export interface CopyShape {
     navItems: NavItem[]
     ctaLabel: string
     languageToggleLabel: string
-    tryItOutLabel: string
   }
 
   hero: {
